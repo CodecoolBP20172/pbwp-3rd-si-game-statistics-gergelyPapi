@@ -96,8 +96,6 @@ An example return value: ["Minecraft",23.0,2009,"Survival game","Microsoft"].
 def get_game(file_name, title):
     with open(file_name) as text_file:
         text_file_converted_to_list = [[item for item in line.strip().split("\t")] for line in text_file]
-    detalis_of_game = []
     for list_in_converted in text_file_converted_to_list:
         if title == list_in_converted[0]:
-            detalis_of_game.append(list_in_converted)
-    return detalis_of_game
+            return list_in_converted
