@@ -2,7 +2,7 @@
 # Report functions
 
 
-def count_items(file_name):
+def count_games(file_name):
     with open(file_name) as text_file:
         count = sum(1 for line in text_file)
     return count
@@ -51,9 +51,8 @@ def get_line_number_by_title(file_name, title):
     with open(file_name) as text_file:
         text_file_converted_to_list = [
             [item for item in line.strip().split("\t")] for line in text_file]
-    for index, list_in_converted in enumerate(
-            text_file_converted_to_list, start=1):
-        if title in list_in_converted:
-            return(index)
-        if title not in list_in_converted:
-            raise ValueError
+        for index, list_in_converted in enumerate(
+                text_file_converted_to_list, start=1):
+            if title in list_in_converted:
+                return(index)
+        raise ValueError
