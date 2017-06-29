@@ -1,0 +1,8 @@
+Minecraft
+187.16
+7.798333333333333
+52
+2003
+['Counter-Strike', 12.5, 1999.0, 'First-person shooter', 'Valve Corporation']
+{'Real-time strategy': 7, 'Simulation': 3, 'Sandbox': 1, 'Action-adventure': 1, 'Survival game': 1, 'First-person shooter': 6, 'RPG': 5}
+['Diablo III', 'Terraria', 'StarCraft II: Wings of Liberty', 'The Sims 3', 'Minecraft', 'Crysis', "Garry's Mod", 'Guild Wars', 'World of Warcraft', 'Warhammer 40,000: Dawn of War (including expansions)', 'The Sims 2', 'Half-Life 2', 'Doom 3', 'Counter-Strike: Condition Zero', 'Warcraft III: Reign of Chaos', 'The Sims', 'Diablo II', 'EverQuest', 'Counter-Strike', 'StarCraft', 'Half-Life', 'Age of Empires', 'Command & Conquer', 'Populous']
